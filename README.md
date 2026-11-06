@@ -1,6 +1,6 @@
-# rimfrost-service-kund-prenumeration-test-openapi
+# rimfrost-service-identitet-prenumeration-test-openapi
 
-OpenAPI definitions for kund-prenumeration-test endpoints.
+OpenAPI definitions for identitet-prenumeration-test endpoints.
 
 ## Artifacts
 
@@ -8,5 +8,5 @@ OpenAPI definitions for kund-prenumeration-test endpoints.
 
 ## Modules
 
-- `rimfrost-service-kund-prenumeration-test-openapi-spec` — OpenAPI YAML spec artifact
-- `rimfrost-service-kund-prenumeration-test-openapi-jaxrs-spec` — Generated JAX-RS server stubs
+- `rimfrost-service-identitet-prenumeration-test-openapi-spec` — OpenAPI YAML spec artifact
+- `rimfrost-service-identitet-prenumeration-test-openapi-jaxrs-spec` — Generated JAX-RS server stubs

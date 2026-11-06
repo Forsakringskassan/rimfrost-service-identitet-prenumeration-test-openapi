@@ -25,13 +25,13 @@ allprojects {
 	}
 }
 
-project("rimfrost-service-kund-prenumeration-test-openapi-spec",{
+project("rimfrost-service-identitet-prenumeration-test-openapi-spec",{
 	fkOpenApi {
 		generatorName.set("openapi-yaml")
 	}
 })
 
-project("rimfrost-service-kund-prenumeration-test-openapi-jaxrs-spec",{
+project("rimfrost-service-identitet-prenumeration-test-openapi-jaxrs-spec",{
 	fkOpenApi {
 		generatorName.set("jaxrs-spec")
 	}

@@ -9,13 +9,13 @@ info:
 x-internal: true
 
 paths:
-  /test/identitetcentrerat-data-changed:
+  /test/identitet-data-changed:
     post:
       tags: [TestController]
-      operationId: triggerIdentitetcentreratDataChanged
-      summary: Trigga ett identitetcentrerat-data-changed event manuellt
+      operationId: triggerIdentitetDataChanged
+      summary: Trigga ett identitet-data-changed event manuellt
       description: |
-        Publicerar ett identitetcentrerat-data-changed event för en given `idtyp`/`idvarde`-kombination.
+        Publicerar ett identitet-data-changed event för en given `idtyp`/`idvarde`-kombination.
       requestBody:
         required: true
         content:

@@ -1,3 +1,11 @@
+## 0.0.2 (2026-11-06)
+
+### Bug Fixes
+
+-  simplify endpoint name from identitetcentrerat to identitet-data-changed ([c0949](https://github.com/Forsakringskassan/rimfrost-service-identitet-prenumeration-test-openapi/commit/c0949c3f2c5f89c) Ulf Slunga)  
+-  rename kund to identitet throughout repo ([fa429](https://github.com/Forsakringskassan/rimfrost-service-identitet-prenumeration-test-openapi/commit/fa4293201feaff3) Ulf Slunga)  
+-  **deps**  update dependency se.fk.gradle:gradle-conventions to v1.18.3 ([189c5](https://github.com/Forsakringskassan/rimfrost-service-identitet-prenumeration-test-openapi/commit/189c5c15cfa93ea) renovate[bot])  
+
 # rimfrost-service-kund-prenumeration-test-openapi changelog
 
 Changelog of rimfrost-service-kund-prenumeration-test-openapi.

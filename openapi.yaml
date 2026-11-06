@@ -1,21 +1,21 @@
 openapi: 3.0.3
 info:
-  title: Kund-prenumeration Test API
+  title: Identitet-prenumeration Test API
   version: 1.0.0
   description: |
-    Testgränssnitt för rimfrost-service-kund-prenumeration.
+    Testgränssnitt för rimfrost-service-identitet-prenumeration.
     Används för manuell testning och demos i Kubernetes-miljö.
 
 x-internal: true
 
 paths:
-  /test/kundcentrerat-data-changed:
+  /test/identitet-data-changed:
     post:
       tags: [TestController]
-      operationId: triggerKundcentreratDataChanged
-      summary: Trigga ett kundcentrerat-data-changed event manuellt
+      operationId: triggerIdentitetDataChanged
+      summary: Trigga ett identitet-data-changed event manuellt
       description: |
-        Publicerar ett kundcentrerat-data-changed event för en given `idtyp`/`idvarde`-kombination.
+        Publicerar ett identitet-data-changed event för en given `idtyp`/`idvarde`-kombination.
       requestBody:
         required: true
         content:
